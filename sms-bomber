@@ -1,0 +1,12 @@
+import pyautogui
+import time
+time.sleep(10)
+def nesaj():
+# büyük küçük harfe dikkat edin
+# mesajıı burdan değiştirlebilirsiniz.
+    pyautogui.write("Naber")
+    pyautogui.press("enter")
+while True:
+    nesaj()
+    time.sleep(0)
+# birde kullanmadan önce kodu çalıştırıp sonra whatsapp web'i açıp büyük küçük harf duyarlı mesajı yazın enter'a basın sonra olucaktır.
